@@ -1,11 +1,14 @@
 // Good Luck! You got this 💪🏾
 // Write your code here.
-let A = 29
-let B = 19
+const A = 20;
+const B = 40;
 
 if (A > B) {
-    console.log("The largest number out of the two numbers is A");
-  } else {
-    console.log("Hi There !");
-  }
+  console.log(`${A} is larger than ${B}`);
+} else if (B > A) {
+  console.log(`${B} is larger than ${A}`);
+} else {
+  console.log("The two numbers are equal");
+}
+
   
